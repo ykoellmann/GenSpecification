@@ -11,11 +11,11 @@ public class SpecificationBase<TEntity>
 
     protected virtual IIncludableSpecification<TEntity> Include(IIncludableSpecification<TEntity> includable)
     {
-        return null;
+        return null!;
     }
 
     protected virtual IOrderedSpecification<TEntity> Order(IOrderedSpecification<TEntity> ordered)
     {
-        return null;
+        return null!;
     }
 }

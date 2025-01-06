@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenSpecification", "GenSpecification\GenSpecification.csproj", "{B8DDB0AE-B407-42FB-BCBB-9CE61A2B3452}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specifications", "Specifications\Specifications.csproj", "{B8DDB0AE-B407-42FB-BCBB-9CE61A2B3452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specifications.SourceGenerator", "Specifications.SourceGenerator\Specifications.SourceGenerator.csproj", "{C3AD1E2D-19C8-4C66-80FF-858A12CFB90C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +14,9 @@ Global
 		{B8DDB0AE-B407-42FB-BCBB-9CE61A2B3452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8DDB0AE-B407-42FB-BCBB-9CE61A2B3452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8DDB0AE-B407-42FB-BCBB-9CE61A2B3452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3AD1E2D-19C8-4C66-80FF-858A12CFB90C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3AD1E2D-19C8-4C66-80FF-858A12CFB90C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3AD1E2D-19C8-4C66-80FF-858A12CFB90C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3AD1E2D-19C8-4C66-80FF-858A12CFB90C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
